@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+html {
+	scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Archivo', sans-serif;
+}
+body{
+    background-color: #F9F6EE;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+header{
+    background-image: url(/img/header.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+h1{
+    padding: 10px 40px 10px 40px;
+    font-size: 40px;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.726);
+    border-radius: 30px;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav li{
+    list-style-type: none;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover
+{
+    color: rgba(255, 255, 255, 0.459);
+}
+.left
+{
+    float: left;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.right{
+    float: right;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+section{
+    
+    margin-top: 20px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: white;
+}
+section p{
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+section h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.types li{
+    margin-bottom: 30px;
+}
+.types li:last-child{
+    margin-bottom: 0;
+}
+.types ul{
+    list-style-type: none;
+}
+.types h3{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.types p{
+    text-indent: 20px;
+    margin-left: 30px;
+}
+
+.preparing ol{
+    padding: 20px;
+}
+.preparing li{
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.preparing li:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: 0.3s;
+    
+}
+.preparing li:last-child{
+    margin-bottom: 0;
+}
